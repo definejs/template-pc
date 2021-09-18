@@ -1,14 +1,19 @@
 {
   "name": "@definejs/template-pc",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "针对 PC 端的 definejs 打包成单独库的配置模板。",
   "main": "definejs.packer.config.js",
   "scripts": {
     
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "bin": {},
+  "author": "definejs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/definejs/template-pc.git"
+  },
   "devDependencies": {
     "@definejs/file": "^1.0.0",
     "@definejs/object": "^1.1.0"
@@ -37,7 +42,7 @@
     "@definejs/module-manager": "1.0.2",
     "@definejs/navigator": "1.0.0",
     "@definejs/object": "1.1.0",
-    "@definejs/package": "1.0.0",
+    "@definejs/package": "1.0.1",
     "@definejs/panel": "1.0.1",
     "@definejs/query": "1.0.0",
     "@definejs/script": "1.0.2",
