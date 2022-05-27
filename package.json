@@ -1,6 +1,6 @@
 {
   "name": "@definejs/template-pc",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "针对 PC 端的 definejs 打包成单独库的配置模板。",
   "main": "definejs.packer.config.js",
   "scripts": {

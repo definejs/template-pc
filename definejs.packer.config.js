@@ -10,11 +10,9 @@ module.exports = {
     //在某些情况下，为了加快打包速度，可以避免重复下载和安装包。
     //指定为 true，则会删除之前的包（如果存在），并且重新下载和安装包。
     //指定为 false，可以复用之前已安装下好的包，请确保 tempDir 字段代表的目录中的包已存在。
+    //也可以通过命令行的参数来指定为 true，如 `definejs pack --install`。
     install: false,
 
-    //当指定为某个具体的 package.json 文件时，则使用里面的 dependencies 字段。
-    //请确保指定的 package.json 文件存在。
-    packages: './package.json',
 
     //必选，需要导出的全局对象。
     globalExports: {
